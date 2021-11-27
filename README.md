@@ -2,7 +2,7 @@
 
 #### 介绍
 DIY Lightweight Startracker / Equatorial mount
-一款低成本、易DIY的星野赤道仪/追踪器
+一款低成本、易DIY的轻量级星野赤道仪/追踪器
 特点：
 *支持约200mm焦距    
 *成本仅150元
