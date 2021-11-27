@@ -2,9 +2,17 @@
 
 #### 介绍
 DIY Lightweight Startracker / Equatorial mount
+一款低成本、易DIY的星野赤道仪/追踪器
+特点：
+*支持约200mm焦距    
+*成本仅150元
+*无电路焊接
+*支持南北半球、多种自定义速度 
+感谢黑灯(bilibili ID :黑灯kuro)的原始设计
+见[DIY手机星野赤道仪](https://bbs.imufu.cn/forum.php?mod=viewthread&tid=779955&highlight=手机星野赤道仪)
 
 #### 软件架构
-软件架构说明
+基于Arduino，需安装MsTimer2库
 
 
 #### 安装教程
