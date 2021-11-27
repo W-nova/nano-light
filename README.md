@@ -8,8 +8,10 @@ DIY Lightweight Startracker / Equatorial mount
 *成本仅150元
 *无电路焊接
 *支持南北半球、多种自定义速度 
+*集成激光头，可用于对极轴/辅助寻星 
 感谢黑灯(bilibili ID :黑灯kuro)的原始设计
 见[DIY手机星野赤道仪](https://bbs.imufu.cn/forum.php?mod=viewthread&tid=779955&highlight=手机星野赤道仪)
+建模过程得到扇子学长的帮助，感谢他们的贡献
 
 #### 软件架构
 基于Arduino，需安装MsTimer2库
@@ -22,8 +24,8 @@ DIY Lightweight Startracker / Equatorial mount
 
 #### 使用说明
 
-模型文件见3D model
-1:3000减速箱代码见 Code -> tracker_3000
-1:1000减速箱代码见 Code -> tracker_1000
+1.  模型文件见3D model
+2.  1:3000减速箱代码见 Code -> tracker_3000
+    1:1000减速箱代码见 Code -> tracker_1000
 
 
