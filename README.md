@@ -1,7 +1,7 @@
 # Nano Light
 ![概览](picture/2bf5d8a228ba3f01.jpg)    
 #### 介绍
-DIY Lightweight Startracker / Equatorial mount    
+DIY Lightweight Startracker / Adventurer Equatorial Mount    
 一款低成本、易DIY的轻量级星野赤道仪/追踪器
 
 特点：    
