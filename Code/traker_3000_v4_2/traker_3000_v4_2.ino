@@ -30,7 +30,7 @@ const int Sptab[2][8] = {{147 ,29 ,0  ,6  ,12 ,18 ,30 ,73 },\
 
 long double previousMillis = 0; //上一次转换电平绝对时间
 
-int Comtime = 94; //补偿恒星速中断、读写、判断耗时 us
+int Comtime = 98; //补偿恒星速中断、读写、判断耗时 us
 
 int ms = 0;
 float us = 0.0;
