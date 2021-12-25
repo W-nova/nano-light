@@ -29,7 +29,7 @@ DIY Lightweight Startracker / Adventurer Equatorial Mount
 #### 使用说明
 
 1.  模型文件见3D model
-2.  1:3000减速箱代码见 Code -> tracker_3000
+2.  1:3000减速箱代码见 Code -> tracker_3000    
     1:1000减速箱代码见 Code -> tracker_1000
 
 
