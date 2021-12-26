@@ -32,4 +32,6 @@ DIY Lightweight Startracker / Adventurer Equatorial Mount
 2.  1:3000减速箱代码见 Code -> tracker_3000    
     1:1000减速箱代码见 Code -> tracker_1000
 
+#### 视频教程
+[点击这里](https://www.bilibili.com/video/BV1gi4y1R7HK?share_source=copy_web)
 
