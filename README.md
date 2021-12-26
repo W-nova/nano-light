@@ -28,9 +28,11 @@ DIY Lightweight Startracker / Adventurer Equatorial Mount
 
 #### 使用说明
 
-1.  模型文件见3D model
+1.  模型文件见3D model    
+    *由于内置激光头很容易发热，并且比指星笔更贵，推荐大家用指星笔
 2.  1:3000减速箱代码见 Code -> tracker_3000    
-    1:1000减速箱代码见 Code -> tracker_1000
+    1:1000减速箱代码见 Code -> tracker_1000    
+    1:3000减速箱理论精度高一些，1:1000减速箱最快速比1:3000减速箱快3倍 可根据自己的需要选择
 
 #### 视频教程
 [点击这里](https://www.bilibili.com/video/BV1gi4y1R7HK?share_source=copy_web)
