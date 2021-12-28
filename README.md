@@ -9,7 +9,10 @@ DIY Lightweight Startracker / Adventurer Equatorial Mount
 *成本仅150元    
 *无电路焊接    
 *支持南北半球、多种自定义速度     
-*可集成激光头，用于对极轴/辅助寻星     
+*可集成激光头，用于对极轴/辅助寻星   
+ **注意** ///激光严禁照射人眼/镜头/飞机等，也不可在他人拍照时使用    
+         违反上述使用规则，后果自负///    
+
 
 感谢黑灯(bilibili ID :黑灯kuro)的原始设计    
 见[DIY手机星野赤道仪](https://bbs.imufu.cn/forum.php?mod=viewthread&tid=779955&highlight=手机星野赤道仪)    
