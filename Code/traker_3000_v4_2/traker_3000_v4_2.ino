@@ -120,7 +120,8 @@ void Speed(int ct[4]) //速度与方向
     default :{
       }break;
   }
-  
+  //Serial.println(ms);
+  //Serial.println(us);
 }
 
 void tt(int a1,int aa1,int b1,int bb1,int tab_i,int us)    //一个电机循环
