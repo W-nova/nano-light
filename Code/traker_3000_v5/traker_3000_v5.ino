@@ -23,16 +23,16 @@ const int tab[8][4] = {{1,0,0,0}, {1,0,1,0}, {0,0,1,0}, {0,1,1,0},\
 static int tab_i = 0;//查表循环
 
 //速度表： {{Ms},{Us}}    恒星速/5X/MAX /1h /2h /3h /5h /12h延时速度
-//计算：恒星日：23:56:04 = 86164s /1012.5/96/2 ~ 443.230ms/step
-//如需月亮速：89428s /1012.5/96/2~460.21ms/step
-const int Sptab[2][8] = {{443 ,88 ,0  ,18 ,36 ,55 ,92 ,221},\
-                         {230 ,646,800,468,935,403,340,615}}; 
+//计算：恒星日：23:56:04 = 86164s /2916/96/2 ~ 153.899ms/step
+//如需月亮速：89428s /2916/96/2~159.729ms/step
+const int Sptab[2][8] = {{153 ,30 ,0  ,6  ,12 ,19 ,32 ,76 },\
+                         {899 ,780,800,412,824,237,162,950}}; 
 
 long double previousMillis = 0; //上一次转换电平绝对时间
 
 int Comtime = 94; //补偿恒星速中断、读写、判断耗时 us
 
-int ms = 0;
+float ms = 0.0;
 float us = 0.0;
 
 int b1 = b;
@@ -52,7 +52,7 @@ void setup()
   pinMode(Gd2, OUTPUT); //扩展一个低电平
   pinMode(Gd3, OUTPUT); //扩展一个低电平
   
-  pinMode(NS, OUTPUT); //输入上拉 南北半球(正反转)
+  pinMode(NS, INPUT_PULLUP); //输入上拉 南北半球(正反转)
   
   pinMode(SS0, INPUT_PULLUP); //speed
   pinMode(SS1, INPUT_PULLUP); //
@@ -120,40 +120,41 @@ void Speed(int ct[4]) //速度与方向
     default :{
       }break;
   }
-  
+  //Serial.println(ms);
+  //Serial.println(us);
 }
 
-void tt(int a1,int aa1,int b1,int bb1,int tab_i,int us)    //一个电机循环
+void tt(int a1,int aa1,int b1,int bb1,int tab_i)    //一个电机循环
 {
-  //time1 = micros();
   digitalWrite(a1,  tab[tab_i][0]);  
   digitalWrite(aa1, tab[tab_i][1]);
   digitalWrite(b1,  tab[tab_i][2]);
-  digitalWrite(bb1, tab[tab_i][3]);
-  delayMicroseconds (us);           //补偿微秒
-  previousMillis += us/1000;        
+  digitalWrite(bb1, tab[tab_i][3]);        
 }
 
 void loop() {
   digitalWrite(Gd1,LOW);
   digitalWrite(Gd2,LOW);
   digitalWrite(Gd3,LOW);
-  digitalWrite(NS,HIGH);
   if(ms>=20){           //大于20ms时才使用millis()计时
     long double currentMillis = millis();
+    //time1 = micros();
+    tt(a,aa,b1,bb1,tab_i);
     if (currentMillis - previousMillis >= ms) { 
-      previousMillis = currentMillis;
+      delayMicroseconds (us);
+      previousMillis = currentMillis + us/1000;
       tab_i++;
       if(tab_i>=8) tab_i=0;
       //time2 = micros();
       //Serial.println(time2-time1);
     }
-    tt(a,aa,b1,bb1,tab_i,us);
+    
   }
   else{
     for(int i=0;i<=7;i++){
-      tt(a,aa,b1,bb1,i,us);
+      tt(a,aa,b1,bb1,i);
       delay(ms);
+      delayMicroseconds (us);
     }
   }
   
