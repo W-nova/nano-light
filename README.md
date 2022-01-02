@@ -17,8 +17,9 @@ DIY Lightweight Startracker / Adventurer Equatorial Mount
 见[DIY手机星野赤道仪](https://bbs.imufu.cn/forum.php?mod=viewthread&tid=779955&highlight=手机星野赤道仪)    
 建模过程得到扇子学长的帮助，感谢他们的贡献    
 
-#### 测试1
-![测试1](picture/test.jpg)    
+#### 测试
+![测试1 精对极轴](picture/30.0s_Bin1_ISO100_16.jpg)
+![测试2 粗对极轴](picture/test.jpg)
 #### 软件架构
 基于Arduino，需安装MsTimer2库
 
