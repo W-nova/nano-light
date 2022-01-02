@@ -18,7 +18,7 @@ DIY Lightweight Startracker / Adventurer Equatorial Mount
 建模过程得到扇子学长的帮助，感谢他们的贡献    
 
 #### 测试1
-![测试1](picture/30.0s_Bin1_ISO100_16.jpg)    
+![测试1](picture/test.jpg)    
 #### 软件架构
 基于Arduino，需安装MsTimer2库
 
