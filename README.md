@@ -40,3 +40,6 @@ DIY Lightweight Startracker / Adventurer Equatorial Mount
 #### 视频教程
 [点击这里](https://www.bilibili.com/video/BV1gi4y1R7HK?share_source=copy_web)
 
+#### 重要更新
+请2022/01/02日13:00前下载代码的制作者进行程序更新，修复了跟踪过快的问题
+
