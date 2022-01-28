@@ -46,4 +46,5 @@ DIY Lightweight Startracker / Adventurer Equatorial Mount
 
 #### 重要更新
 请2022/01/02日13:00前下载代码的制作者进行程序更新，修复了跟踪过快的问题
-
+2022/01/28 更新纬度调节座模型
+![预览](纬度调节座/纬度座预览.png)
