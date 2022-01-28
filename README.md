@@ -45,6 +45,7 @@ DIY Lightweight Startracker / Adventurer Equatorial Mount
 [点击这里](https://www.bilibili.com/video/BV1gi4y1R7HK?share_source=copy_web)
 
 #### 重要更新
-请2022/01/02日13:00前下载代码的制作者进行程序更新，修复了跟踪过快的问题
-2022/01/28 更新纬度调节座模型
-![预览](纬度调节座/纬度座预览.png)
+请2022/01/02日13:00前下载代码的制作者进行程序更新，修复了跟踪过快的问题    
+2022/01/28 更新纬度调节座模型    
+![review](%E7%BB%B4%E5%BA%A6%E8%B0%83%E8%8A%82%E5%BA%A7/%E7%BA%AC%E5%BA%A6%E5%BA%A7%E9%A2%84%E8%A7%88.png)
+
