@@ -2,7 +2,10 @@
 ![概览](picture/2bf5d8a228ba3f01.jpg)    
 #### 介绍
 DIY Lightweight Startracker / Adventurer Equatorial Mount    
-一款低成本、易DIY的轻量级星野赤道仪/追踪器
+一款低成本、易DIY的轻量级星野赤道仪/追踪器    
+
+#### 视频教程
+[点击这里](https://www.bilibili.com/video/BV1gi4y1R7HK?share_source=copy_web)
 
 #### 特点：    
 *支持约200mm焦距(全画幅)   
@@ -41,8 +44,6 @@ DIY Lightweight Startracker / Adventurer Equatorial Mount
     1:1000减速箱代码见 Code -> tracker_1000    
     
 
-#### 视频教程
-[点击这里](https://www.bilibili.com/video/BV1gi4y1R7HK?share_source=copy_web)
 
 #### 重要更新
 请2022/01/02日13:00前下载代码的制作者进行程序更新，修复了跟踪过快的问题    
